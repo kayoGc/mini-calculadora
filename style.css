@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(150, 101, 197);
+    font: normal 15pt arial;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+#calc{
+    background-color: rgb(79, 163, 135);
+    color: white;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px black;
+    margin: auto;
+    width: 630px;
+    text-align: center;
+}
+
+#visor{
+    background-color: rgba(45, 129, 101, 0.644);
+    margin: auto;
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font: normal 30pt arial;
+}
+
+#principal{
+    display: flex;
+    margin-top: 5px;
+}
+
+#numeros{
+    display: inline;
+    margin: 1px;
+}
+
+.numero{
+    background-color: rgb(112, 96, 96);
+    display: inline-block;
+    margin: 5px;
+    padding: 30px 40px;
+    color: white;
+}
+
+#operadores{
+    display: inline;
+}
+
+.operador{
+    background-color: rgb(112, 96, 96);
+    display: inline-block;
+    margin: 5px;
+    padding: 30px 40px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
